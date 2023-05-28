@@ -1,7 +1,7 @@
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         # Iterative
-        res, stack = [], []
+        res, queue = [], []
         cur = root
 
         while cur or stack:
